@@ -157,6 +157,7 @@ module NetSuite
     autoload :DiscountItem,                     'netsuite/records/discount_item'
     autoload :Duration,                         'netsuite/records/duration'
     autoload :Employee,                         'netsuite/records/employee'
+    autoload :Estimate,                         'netsuite/records/estimate'
     autoload :EntityCustomField,                'netsuite/records/entity_custom_field'
     autoload :File,                             'netsuite/records/file'
     autoload :GiftCertificate,                  'netsuite/records/gift_certificate'

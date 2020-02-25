@@ -11,7 +11,7 @@ module NetSuite
 
       fields :title, :send_email, :message, :status, :access_level, :reminder_type,
              :reminder_minutes, :start_date, :end_date, :due_date, :timed_event,
-             :created_date, :last_modified_date, :priority
+             :created_date, :last_modified_date, :priority, :completed_date
 
       field :contact_list, ContactList
       field :custom_field_list, CustomFieldList
